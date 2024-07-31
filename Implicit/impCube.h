@@ -16,22 +16,25 @@
  */
 
 
-#ifndef IMPCRAWLPOINT_H
-#define IMPCRAWLPOINT_H
+#ifndef IMPCUBE_H
+#define IMPCUBE_H
 
 
 
-// For making a list of starting points for surface crawling.
-class impCrawlPoint{
+#include "impElement.h"
+
+
+
+class impCube : public impElement{
+private:
+    float scale;
+
 public:
-    float position[3];
+    impCube(){scale = 1.0f;};
+    // ~impCube(){};
     
-    impCrawlPoint(){};
-    impCrawlPoint(float x, float y, float z){position[0] = x; position[1] = y; position[2] = z;};
-    impCrawlPoint(float* p){position[0] = p[0]; position[1] = p[1]; position[2] = p[2];};
-    // ~impCrawlPoint(){};
-    void set(float x, float y, float z){position[0] = x; position[1] = y; position[2] = z;};
-    void set(float* p){position[0] = p[0]; position[1] = p[1]; position[2] = p[2];};
+    inline void setScale(float s);
+    inline float value(float* position);
 };
 
 

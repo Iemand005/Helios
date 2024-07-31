@@ -3,263 +3,181 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E015750A247D6B7400840367 /* Helios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157509247D6B7400840367 /* Helios.cpp */; };
-		E015750F247D706100840367 /* rsText.h in Headers */ = {isa = PBXBuildFile; fileRef = E015750C247D706100840367 /* rsText.h */; };
-		E0157510247D706100840367 /* fontmap.h in Headers */ = {isa = PBXBuildFile; fileRef = E015750D247D706100840367 /* fontmap.h */; };
-		E0157511247D706100840367 /* rsText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015750E247D706100840367 /* rsText.cpp */; };
-		E0157520247D718700840367 /* Rgbhsl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157513247D718700840367 /* Rgbhsl.cpp */; };
-		E0157521247D718700840367 /* Rgbhsl.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157514247D718700840367 /* Rgbhsl.h */; };
-		E0157522247D718700840367 /* rsMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157516247D718700840367 /* rsMatrix.cpp */; };
-		E0157523247D718700840367 /* rsVec4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157517247D718700840367 /* rsVec4.cpp */; };
-		E0157524247D718700840367 /* rsTrigonometry.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157518247D718700840367 /* rsTrigonometry.h */; };
-		E0157525247D718700840367 /* rsMath.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157519247D718700840367 /* rsMath.h */; };
-		E0157526247D718700840367 /* rsQuat.h in Headers */ = {isa = PBXBuildFile; fileRef = E015751A247D718700840367 /* rsQuat.h */; };
-		E0157527247D718700840367 /* rsVec4.h in Headers */ = {isa = PBXBuildFile; fileRef = E015751B247D718700840367 /* rsVec4.h */; };
-		E0157528247D718700840367 /* rsMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = E015751C247D718700840367 /* rsMatrix.h */; };
-		E0157529247D718700840367 /* rsVec.h in Headers */ = {isa = PBXBuildFile; fileRef = E015751D247D718700840367 /* rsVec.h */; };
-		E015752A247D718700840367 /* rsVec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015751E247D718700840367 /* rsVec.cpp */; };
-		E015752B247D718700840367 /* rsQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015751F247D718700840367 /* rsQuat.cpp */; };
-		E0157544247D71F900840367 /* impTorus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015752D247D71F900840367 /* impTorus.cpp */; };
-		E0157545247D71F900840367 /* impEllipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015752E247D71F900840367 /* impEllipsoid.cpp */; };
-		E0157546247D71F900840367 /* impShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015752F247D71F900840367 /* impShape.cpp */; };
-		E0157547247D71F900840367 /* impCapsule.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157530247D71F900840367 /* impCapsule.h */; };
-		E0157548247D71F900840367 /* impTorus.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157531247D71F900840367 /* impTorus.h */; };
-		E0157549247D71F900840367 /* impRoundedHexahedron.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157532247D71F900840367 /* impRoundedHexahedron.h */; };
-		E015754A247D71F900840367 /* impCubeTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157533247D71F900840367 /* impCubeTables.cpp */; };
-		E015754B247D71F900840367 /* impCrawlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157534247D71F900840367 /* impCrawlPoint.h */; };
-		E015754C247D71F900840367 /* impShape.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157535247D71F900840367 /* impShape.h */; };
-		E015754D247D71F900840367 /* impKnot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157536247D71F900840367 /* impKnot.cpp */; };
-		E015754E247D71F900840367 /* impCubeVolume.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157537247D71F900840367 /* impCubeVolume.h */; };
-		E015754F247D71F900840367 /* impHexahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157538247D71F900840367 /* impHexahedron.cpp */; };
-		E0157550247D71F900840367 /* impSphere.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157539247D71F900840367 /* impSphere.h */; };
-		E0157551247D71F900840367 /* impCapsule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015753A247D71F900840367 /* impCapsule.cpp */; };
-		E0157552247D71F900840367 /* impSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015753B247D71F900840367 /* impSphere.cpp */; };
-		E0157553247D71F900840367 /* impSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = E015753C247D71F900840367 /* impSurface.h */; };
-		E0157554247D71F900840367 /* impHexahedron.h in Headers */ = {isa = PBXBuildFile; fileRef = E015753D247D71F900840367 /* impHexahedron.h */; };
-		E0157555247D71F900840367 /* impKnot.h in Headers */ = {isa = PBXBuildFile; fileRef = E015753E247D71F900840367 /* impKnot.h */; };
-		E0157556247D71F900840367 /* impCubeVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E015753F247D71F900840367 /* impCubeVolume.cpp */; };
-		E0157557247D71F900840367 /* impCubeTables.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157540247D71F900840367 /* impCubeTables.h */; };
-		E0157558247D71F900840367 /* impRoundedHexahedron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157541247D71F900840367 /* impRoundedHexahedron.cpp */; };
-		E0157559247D71F900840367 /* impSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0157542247D71F900840367 /* impSurface.cpp */; };
-		E015755A247D71F900840367 /* impEllipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157543247D71F900840367 /* impEllipsoid.h */; };
-		E015755C247D762C00840367 /* spheremap.h in Headers */ = {isa = PBXBuildFile; fileRef = E015755B247D762C00840367 /* spheremap.h */; };
-		E015755E247D779100840367 /* Helios.h in Headers */ = {isa = PBXBuildFile; fileRef = E015755D247D779100840367 /* Helios.h */; };
-		E0157561247DB3EA00840367 /* Helios.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0157563247DB3EA00840367 /* Helios.xib */; };
-		E0157564247DB3FC00840367 /* HeliosView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01528F51007D13077F000001 /* HeliosView.h */; };
-		E0157565247DB3FF00840367 /* HeliosView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5F14197033A929801A80102 /* HeliosView.mm */; };
-		E0157568247DB45B00840367 /* rsTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = E0157567247DB45B00840367 /* rsTimer.h */; };
-		E08259C02482CE0900CD3F52 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = E08259BF2482CE0900CD3F52 /* thumbnail.png */; };
-		E0D079D00996912E00B2C3F4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5F141D2033A92FE01A80102 /* Localizable.strings */; };
-		E0D079D10996912E00B2C3F4 /* spheremap.tga in Resources */ = {isa = PBXBuildFile; fileRef = F5F141DC033A93E701A80102 /* spheremap.tga */; };
-		E0D079D20996912E00B2C3F4 /* aaron_map.tga in Resources */ = {isa = PBXBuildFile; fileRef = A13524D903E6055600A80102 /* aaron_map.tga */; };
-		E0D079D80996912E00B2C3F4 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0149AE530075FC557F000001 /* ScreenSaver.framework */; };
-		E0D079D90996912E00B2C3F4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F141DE033A93F901A80102 /* OpenGL.framework */; };
-		E0D079DA0996912E00B2C3F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F141F1033A941801A80102 /* Foundation.framework */; };
-		E0D079DB0996912E00B2C3F4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F14367033A942D01A80102 /* AppKit.framework */; };
+		0AA780562BB60E1700E0514B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA780552BB60E1700E0514B /* Cocoa.framework */; };
+		0AA780582BB60E1700E0514B /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA780572BB60E1700E0514B /* ScreenSaver.framework */; };
+		0AA780622BB60E1700E0514B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AA780602BB60E1700E0514B /* InfoPlist.strings */; };
+		0AA780662BB60E1800E0514B /* HeliosView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA780652BB60E1800E0514B /* HeliosView.mm */; };
+		0AA7806D2BB6135100E0514B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA7806C2BB6135100E0514B /* OpenGL.framework */; };
+		0AA7807C2BB6142E00E0514B /* impCrawlPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA7806F2BB6142E00E0514B /* impCrawlPoint.h */; };
+		0AA7807D2BB6142E00E0514B /* impCube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA780702BB6142E00E0514B /* impCube.cpp */; };
+		0AA7807E2BB6142E00E0514B /* impCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780712BB6142E00E0514B /* impCube.h */; };
+		0AA7807F2BB6142E00E0514B /* impCubeTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780722BB6142E00E0514B /* impCubeTable.h */; };
+		0AA780802BB6142E00E0514B /* impCubeVolume.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA780732BB6142E00E0514B /* impCubeVolume.cpp */; };
+		0AA780812BB6142E00E0514B /* impCubeVolume.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780742BB6142E00E0514B /* impCubeVolume.h */; };
+		0AA780822BB6142E00E0514B /* impElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780752BB6142E00E0514B /* impElement.h */; };
+		0AA780832BB6142E00E0514B /* impSphere.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780762BB6142E00E0514B /* impSphere.h */; };
+		0AA780842BB6142E00E0514B /* impSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780772BB6142E00E0514B /* impSurface.h */; };
+		0AA780852BB6142E00E0514B /* rsDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780792BB6142E00E0514B /* rsDefines.h */; };
+		0AA780862BB6142E00E0514B /* rsMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA7807A2BB6142E00E0514B /* rsMath.h */; };
+		0AA780872BB6142E00E0514B /* rsRand.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA7807B2BB6142E00E0514B /* rsRand.h */; };
+		0AA7808B2BB615CD00E0514B /* spheremap.tga in Resources */ = {isa = PBXBuildFile; fileRef = 0AA780892BB615CD00E0514B /* spheremap.tga */; };
+		0AA7808C2BB615CD00E0514B /* aaron_map.tga in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7808A2BB615CD00E0514B /* aaron_map.tga */; };
+		0AA780962BB61AD200E0514B /* HeliosPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AA780952BB61AD200E0514B /* HeliosPreferences.xib */; };
+		0AA7809F2BB624A000E0514B /* Helios.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA7809D2BB624A000E0514B /* Helios.h */; };
+		0AA780A02BB624A000E0514B /* Helios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7809E2BB624A000E0514B /* Helios.mm */; };
+		0AA780A32BB6258F00E0514B /* HeliosMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA780A12BB6258F00E0514B /* HeliosMath.h */; };
+		0AA780A42BB6258F00E0514B /* HeliosMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA780A22BB6258F00E0514B /* HeliosMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0149AE530075FC557F000001 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
-		01528F51007D13077F000001 /* HeliosView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HeliosView.h; sourceTree = SOURCE_ROOT; };
-		A13524D903E6055600A80102 /* aaron_map.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaron_map.tga; sourceTree = "<group>"; };
-		E0157504247D67B600840367 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E0157505247D67B900840367 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E0157506247D67BD00840367 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E0157507247D67C000840367 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E0157508247D67C200840367 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E0157509247D6B7400840367 /* Helios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Helios.cpp; sourceTree = "<group>"; };
-		E015750C247D706100840367 /* rsText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsText.h; sourceTree = "<group>"; };
-		E015750D247D706100840367 /* fontmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontmap.h; sourceTree = "<group>"; };
-		E015750E247D706100840367 /* rsText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsText.cpp; sourceTree = "<group>"; };
-		E0157513247D718700840367 /* Rgbhsl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rgbhsl.cpp; sourceTree = "<group>"; };
-		E0157514247D718700840367 /* Rgbhsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rgbhsl.h; sourceTree = "<group>"; };
-		E0157516247D718700840367 /* rsMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsMatrix.cpp; sourceTree = "<group>"; };
-		E0157517247D718700840367 /* rsVec4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsVec4.cpp; sourceTree = "<group>"; };
-		E0157518247D718700840367 /* rsTrigonometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsTrigonometry.h; sourceTree = "<group>"; };
-		E0157519247D718700840367 /* rsMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsMath.h; sourceTree = "<group>"; };
-		E015751A247D718700840367 /* rsQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsQuat.h; sourceTree = "<group>"; };
-		E015751B247D718700840367 /* rsVec4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsVec4.h; sourceTree = "<group>"; };
-		E015751C247D718700840367 /* rsMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsMatrix.h; sourceTree = "<group>"; };
-		E015751D247D718700840367 /* rsVec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsVec.h; sourceTree = "<group>"; };
-		E015751E247D718700840367 /* rsVec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsVec.cpp; sourceTree = "<group>"; };
-		E015751F247D718700840367 /* rsQuat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rsQuat.cpp; sourceTree = "<group>"; };
-		E015752D247D71F900840367 /* impTorus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impTorus.cpp; sourceTree = "<group>"; };
-		E015752E247D71F900840367 /* impEllipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impEllipsoid.cpp; sourceTree = "<group>"; };
-		E015752F247D71F900840367 /* impShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impShape.cpp; sourceTree = "<group>"; };
-		E0157530247D71F900840367 /* impCapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCapsule.h; sourceTree = "<group>"; };
-		E0157531247D71F900840367 /* impTorus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impTorus.h; sourceTree = "<group>"; };
-		E0157532247D71F900840367 /* impRoundedHexahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impRoundedHexahedron.h; sourceTree = "<group>"; };
-		E0157533247D71F900840367 /* impCubeTables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impCubeTables.cpp; sourceTree = "<group>"; };
-		E0157534247D71F900840367 /* impCrawlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCrawlPoint.h; sourceTree = "<group>"; };
-		E0157535247D71F900840367 /* impShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impShape.h; sourceTree = "<group>"; };
-		E0157536247D71F900840367 /* impKnot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impKnot.cpp; sourceTree = "<group>"; };
-		E0157537247D71F900840367 /* impCubeVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCubeVolume.h; sourceTree = "<group>"; };
-		E0157538247D71F900840367 /* impHexahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impHexahedron.cpp; sourceTree = "<group>"; };
-		E0157539247D71F900840367 /* impSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impSphere.h; sourceTree = "<group>"; };
-		E015753A247D71F900840367 /* impCapsule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impCapsule.cpp; sourceTree = "<group>"; };
-		E015753B247D71F900840367 /* impSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impSphere.cpp; sourceTree = "<group>"; };
-		E015753C247D71F900840367 /* impSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impSurface.h; sourceTree = "<group>"; };
-		E015753D247D71F900840367 /* impHexahedron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impHexahedron.h; sourceTree = "<group>"; };
-		E015753E247D71F900840367 /* impKnot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impKnot.h; sourceTree = "<group>"; };
-		E015753F247D71F900840367 /* impCubeVolume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impCubeVolume.cpp; sourceTree = "<group>"; };
-		E0157540247D71F900840367 /* impCubeTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCubeTables.h; sourceTree = "<group>"; };
-		E0157541247D71F900840367 /* impRoundedHexahedron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impRoundedHexahedron.cpp; sourceTree = "<group>"; };
-		E0157542247D71F900840367 /* impSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impSurface.cpp; sourceTree = "<group>"; };
-		E0157543247D71F900840367 /* impEllipsoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impEllipsoid.h; sourceTree = "<group>"; };
-		E015755B247D762C00840367 /* spheremap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spheremap.h; sourceTree = "<group>"; };
-		E015755D247D779100840367 /* Helios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helios.h; sourceTree = "<group>"; };
-		E0157562247DB3EA00840367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Helios.xib; sourceTree = "<group>"; };
-		E0157567247DB45B00840367 /* rsTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsTimer.h; sourceTree = "<group>"; };
-		E08259BF2482CE0900CD3F52 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
-		E0D079E10996912E00B2C3F4 /* Info-Helios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Helios.plist"; sourceTree = "<group>"; };
-		E0D079E20996912E00B2C3F4 /* Helios.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Helios.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5F14197033A929801A80102 /* HeliosView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = HeliosView.mm; sourceTree = "<group>"; };
-		F5F141DC033A93E701A80102 /* spheremap.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = spheremap.tga; sourceTree = "<group>"; };
-		F5F141DE033A93F901A80102 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		F5F141F1033A941801A80102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		F5F14367033A942D01A80102 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0AA780522BB60E1700E0514B /* Helios.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Helios.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA780552BB60E1700E0514B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0AA780572BB60E1700E0514B /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		0AA7805A2BB60E1700E0514B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0AA7805B2BB60E1700E0514B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0AA7805C2BB60E1700E0514B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AA7805F2BB60E1700E0514B /* Helios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helios-Info.plist"; sourceTree = "<group>"; };
+		0AA780612BB60E1700E0514B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA780632BB60E1700E0514B /* Helios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helios-Prefix.pch"; sourceTree = "<group>"; };
+		0AA780642BB60E1700E0514B /* HeliosView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeliosView.h; sourceTree = "<group>"; };
+		0AA780652BB60E1800E0514B /* HeliosView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HeliosView.mm; sourceTree = "<group>"; };
+		0AA7806C2BB6135100E0514B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0AA7806F2BB6142E00E0514B /* impCrawlPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCrawlPoint.h; sourceTree = "<group>"; };
+		0AA780702BB6142E00E0514B /* impCube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impCube.cpp; sourceTree = "<group>"; };
+		0AA780712BB6142E00E0514B /* impCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCube.h; sourceTree = "<group>"; };
+		0AA780722BB6142E00E0514B /* impCubeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCubeTable.h; sourceTree = "<group>"; };
+		0AA780732BB6142E00E0514B /* impCubeVolume.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = impCubeVolume.cpp; sourceTree = "<group>"; };
+		0AA780742BB6142E00E0514B /* impCubeVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impCubeVolume.h; sourceTree = "<group>"; };
+		0AA780752BB6142E00E0514B /* impElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impElement.h; sourceTree = "<group>"; };
+		0AA780762BB6142E00E0514B /* impSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impSphere.h; sourceTree = "<group>"; };
+		0AA780772BB6142E00E0514B /* impSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = impSurface.h; sourceTree = "<group>"; };
+		0AA780792BB6142E00E0514B /* rsDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsDefines.h; sourceTree = "<group>"; };
+		0AA7807A2BB6142E00E0514B /* rsMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsMath.h; sourceTree = "<group>"; };
+		0AA7807B2BB6142E00E0514B /* rsRand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsRand.h; sourceTree = "<group>"; };
+		0AA780892BB615CD00E0514B /* spheremap.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = spheremap.tga; sourceTree = "<group>"; };
+		0AA7808A2BB615CD00E0514B /* aaron_map.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = aaron_map.tga; sourceTree = "<group>"; };
+		0AA780952BB61AD200E0514B /* HeliosPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeliosPreferences.xib; sourceTree = "<group>"; };
+		0AA7809D2BB624A000E0514B /* Helios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helios.h; sourceTree = "<group>"; };
+		0AA7809E2BB624A000E0514B /* Helios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Helios.mm; sourceTree = "<group>"; };
+		0AA780A12BB6258F00E0514B /* HeliosMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeliosMath.h; sourceTree = "<group>"; };
+		0AA780A22BB6258F00E0514B /* HeliosMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeliosMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E0D079D70996912E00B2C3F4 /* Frameworks */ = {
+		0AA7804D2BB60E1700E0514B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D079D80996912E00B2C3F4 /* ScreenSaver.framework in Frameworks */,
-				E0D079D90996912E00B2C3F4 /* OpenGL.framework in Frameworks */,
-				E0D079DA0996912E00B2C3F4 /* Foundation.framework in Frameworks */,
-				E0D079DB0996912E00B2C3F4 /* AppKit.framework in Frameworks */,
+				0AA7806D2BB6135100E0514B /* OpenGL.framework in Frameworks */,
+				0AA780562BB60E1700E0514B /* Cocoa.framework in Frameworks */,
+				0AA780582BB60E1700E0514B /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0149AE500075FABC7F000001 = {
+		0AA780472BB60E1700E0514B = {
 			isa = PBXGroup;
 			children = (
-				01528F51007D13077F000001 /* HeliosView.h */,
-				F5F14197033A929801A80102 /* HeliosView.mm */,
-				E0157509247D6B7400840367 /* Helios.cpp */,
-				E015755D247D779100840367 /* Helios.h */,
-				E015755B247D762C00840367 /* spheremap.h */,
-				E015752C247D71F900840367 /* Implicit */,
-				E0157512247D718700840367 /* Rgbhsl */,
-				E0157515247D718700840367 /* rsMath */,
-				E015750B247D706100840367 /* rsText */,
-				E0157566247DB45B00840367 /* util */,
-				F5F141DB033A93C701A80102 /* Resources */,
-				0149AE520075FC557F000001 /* Frameworks */,
-				0149AE580075FD537F000001 /* Products */,
-				E0D079E10996912E00B2C3F4 /* Info-Helios.plist */,
+				0AA7805D2BB60E1700E0514B /* Helios */,
+				0AA7806E2BB6142E00E0514B /* Implicit */,
+				0AA780782BB6142E00E0514B /* rsMath */,
+				0AA780882BB615A400E0514B /* Resources */,
+				0AA780542BB60E1700E0514B /* Frameworks */,
+				0AA780532BB60E1700E0514B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0149AE520075FC557F000001 /* Frameworks */ = {
+		0AA780532BB60E1700E0514B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0149AE530075FC557F000001 /* ScreenSaver.framework */,
-				F5F141DE033A93F901A80102 /* OpenGL.framework */,
-				F5F141F1033A941801A80102 /* Foundation.framework */,
-				F5F14367033A942D01A80102 /* AppKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0149AE580075FD537F000001 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E0D079E20996912E00B2C3F4 /* Helios.saver */,
+				0AA780522BB60E1700E0514B /* Helios.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E015750B247D706100840367 /* rsText */ = {
+		0AA780542BB60E1700E0514B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E015750C247D706100840367 /* rsText.h */,
-				E015750D247D706100840367 /* fontmap.h */,
-				E015750E247D706100840367 /* rsText.cpp */,
+				0AA7806C2BB6135100E0514B /* OpenGL.framework */,
+				0AA780552BB60E1700E0514B /* Cocoa.framework */,
+				0AA780572BB60E1700E0514B /* ScreenSaver.framework */,
+				0AA780592BB60E1700E0514B /* Other Frameworks */,
 			);
-			path = rsText;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0157512247D718700840367 /* Rgbhsl */ = {
+		0AA780592BB60E1700E0514B /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E0157513247D718700840367 /* Rgbhsl.cpp */,
-				E0157514247D718700840367 /* Rgbhsl.h */,
+				0AA7805A2BB60E1700E0514B /* AppKit.framework */,
+				0AA7805B2BB60E1700E0514B /* CoreData.framework */,
+				0AA7805C2BB60E1700E0514B /* Foundation.framework */,
 			);
-			path = Rgbhsl;
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		E0157515247D718700840367 /* rsMath */ = {
+		0AA7805D2BB60E1700E0514B /* Helios */ = {
 			isa = PBXGroup;
 			children = (
-				E0157519247D718700840367 /* rsMath.h */,
-				E0157516247D718700840367 /* rsMatrix.cpp */,
-				E015751C247D718700840367 /* rsMatrix.h */,
-				E0157518247D718700840367 /* rsTrigonometry.h */,
-				E015751F247D718700840367 /* rsQuat.cpp */,
-				E015751A247D718700840367 /* rsQuat.h */,
-				E015751E247D718700840367 /* rsVec.cpp */,
-				E015751D247D718700840367 /* rsVec.h */,
-				E0157517247D718700840367 /* rsVec4.cpp */,
-				E015751B247D718700840367 /* rsVec4.h */,
+				0AA780642BB60E1700E0514B /* HeliosView.h */,
+				0AA780652BB60E1800E0514B /* HeliosView.mm */,
+				0AA7805E2BB60E1700E0514B /* Supporting Files */,
+				0AA7809D2BB624A000E0514B /* Helios.h */,
+				0AA7809E2BB624A000E0514B /* Helios.mm */,
 			);
-			path = rsMath;
+			path = Helios;
 			sourceTree = "<group>";
 		};
-		E015752C247D71F900840367 /* Implicit */ = {
+		0AA7805E2BB60E1700E0514B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E015753A247D71F900840367 /* impCapsule.cpp */,
-				E0157530247D71F900840367 /* impCapsule.h */,
-				E0157534247D71F900840367 /* impCrawlPoint.h */,
-				E0157533247D71F900840367 /* impCubeTables.cpp */,
-				E0157540247D71F900840367 /* impCubeTables.h */,
-				E015753F247D71F900840367 /* impCubeVolume.cpp */,
-				E0157537247D71F900840367 /* impCubeVolume.h */,
-				E015752E247D71F900840367 /* impEllipsoid.cpp */,
-				E0157543247D71F900840367 /* impEllipsoid.h */,
-				E0157538247D71F900840367 /* impHexahedron.cpp */,
-				E015753D247D71F900840367 /* impHexahedron.h */,
-				E0157536247D71F900840367 /* impKnot.cpp */,
-				E015753E247D71F900840367 /* impKnot.h */,
-				E0157541247D71F900840367 /* impRoundedHexahedron.cpp */,
-				E0157532247D71F900840367 /* impRoundedHexahedron.h */,
-				E015752F247D71F900840367 /* impShape.cpp */,
-				E0157535247D71F900840367 /* impShape.h */,
-				E015753B247D71F900840367 /* impSphere.cpp */,
-				E0157539247D71F900840367 /* impSphere.h */,
-				E0157542247D71F900840367 /* impSurface.cpp */,
-				E015753C247D71F900840367 /* impSurface.h */,
-				E015752D247D71F900840367 /* impTorus.cpp */,
-				E0157531247D71F900840367 /* impTorus.h */,
+				0AA7805F2BB60E1700E0514B /* Helios-Info.plist */,
+				0AA780602BB60E1700E0514B /* InfoPlist.strings */,
+				0AA780632BB60E1700E0514B /* Helios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA7806E2BB6142E00E0514B /* Implicit */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7806F2BB6142E00E0514B /* impCrawlPoint.h */,
+				0AA780702BB6142E00E0514B /* impCube.cpp */,
+				0AA780712BB6142E00E0514B /* impCube.h */,
+				0AA780722BB6142E00E0514B /* impCubeTable.h */,
+				0AA780732BB6142E00E0514B /* impCubeVolume.cpp */,
+				0AA780742BB6142E00E0514B /* impCubeVolume.h */,
+				0AA780752BB6142E00E0514B /* impElement.h */,
+				0AA780762BB6142E00E0514B /* impSphere.h */,
+				0AA780772BB6142E00E0514B /* impSurface.h */,
 			);
 			path = Implicit;
 			sourceTree = "<group>";
 		};
-		E0157566247DB45B00840367 /* util */ = {
+		0AA780782BB6142E00E0514B /* rsMath */ = {
 			isa = PBXGroup;
 			children = (
-				E0157567247DB45B00840367 /* rsTimer.h */,
+				0AA780792BB6142E00E0514B /* rsDefines.h */,
+				0AA7807A2BB6142E00E0514B /* rsMath.h */,
+				0AA7807B2BB6142E00E0514B /* rsRand.h */,
+				0AA780A12BB6258F00E0514B /* HeliosMath.h */,
+				0AA780A22BB6258F00E0514B /* HeliosMath.m */,
 			);
-			path = util;
+			path = rsMath;
 			sourceTree = "<group>";
 		};
-		F5F141DB033A93C701A80102 /* Resources */ = {
+		0AA780882BB615A400E0514B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E0157563247DB3EA00840367 /* Helios.xib */,
-				F5F141D2033A92FE01A80102 /* Localizable.strings */,
-				F5F141DC033A93E701A80102 /* spheremap.tga */,
-				A13524D903E6055600A80102 /* aaron_map.tga */,
-				E08259BF2482CE0900CD3F52 /* thumbnail.png */,
+				0AA780892BB615CD00E0514B /* spheremap.tga */,
+				0AA7808A2BB615CD00E0514B /* aaron_map.tga */,
+				0AA780952BB61AD200E0514B /* HeliosPreferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -267,108 +185,89 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E0D079C20996912E00B2C3F4 /* Headers */ = {
+		0AA7804E2BB60E1700E0514B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0157550247D71F900840367 /* impSphere.h in Headers */,
-				E015755A247D71F900840367 /* impEllipsoid.h in Headers */,
-				E0157568247DB45B00840367 /* rsTimer.h in Headers */,
-				E0157526247D718700840367 /* rsQuat.h in Headers */,
-				E015755C247D762C00840367 /* spheremap.h in Headers */,
-				E015754E247D71F900840367 /* impCubeVolume.h in Headers */,
-				E0157547247D71F900840367 /* impCapsule.h in Headers */,
-				E0157553247D71F900840367 /* impSurface.h in Headers */,
-				E0157510247D706100840367 /* fontmap.h in Headers */,
-				E0157527247D718700840367 /* rsVec4.h in Headers */,
-				E0157564247DB3FC00840367 /* HeliosView.h in Headers */,
-				E015754C247D71F900840367 /* impShape.h in Headers */,
-				E0157549247D71F900840367 /* impRoundedHexahedron.h in Headers */,
-				E0157525247D718700840367 /* rsMath.h in Headers */,
-				E015750F247D706100840367 /* rsText.h in Headers */,
-				E015755E247D779100840367 /* Helios.h in Headers */,
-				E015754B247D71F900840367 /* impCrawlPoint.h in Headers */,
-				E0157555247D71F900840367 /* impKnot.h in Headers */,
-				E0157548247D71F900840367 /* impTorus.h in Headers */,
-				E0157529247D718700840367 /* rsVec.h in Headers */,
-				E0157524247D718700840367 /* rsTrigonometry.h in Headers */,
-				E0157528247D718700840367 /* rsMatrix.h in Headers */,
-				E0157557247D71F900840367 /* impCubeTables.h in Headers */,
-				E0157554247D71F900840367 /* impHexahedron.h in Headers */,
-				E0157521247D718700840367 /* Rgbhsl.h in Headers */,
+				0AA7807C2BB6142E00E0514B /* impCrawlPoint.h in Headers */,
+				0AA7807E2BB6142E00E0514B /* impCube.h in Headers */,
+				0AA7807F2BB6142E00E0514B /* impCubeTable.h in Headers */,
+				0AA780812BB6142E00E0514B /* impCubeVolume.h in Headers */,
+				0AA780822BB6142E00E0514B /* impElement.h in Headers */,
+				0AA780832BB6142E00E0514B /* impSphere.h in Headers */,
+				0AA780842BB6142E00E0514B /* impSurface.h in Headers */,
+				0AA780852BB6142E00E0514B /* rsDefines.h in Headers */,
+				0AA780862BB6142E00E0514B /* rsMath.h in Headers */,
+				0AA780872BB6142E00E0514B /* rsRand.h in Headers */,
+				0AA7809F2BB624A000E0514B /* Helios.h in Headers */,
+				0AA780A32BB6258F00E0514B /* HeliosMath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E0D079C10996912E00B2C3F4 /* Helios */ = {
+		0AA780512BB60E1700E0514B /* Helios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0D079DD0996912E00B2C3F4 /* Build configuration list for PBXNativeTarget "Helios" */;
+			buildConfigurationList = 0AA780692BB60E1800E0514B /* Build configuration list for PBXNativeTarget "Helios" */;
 			buildPhases = (
-				E0D079C20996912E00B2C3F4 /* Headers */,
-				E0D079CE0996912E00B2C3F4 /* Resources */,
-				E0D079D30996912E00B2C3F4 /* Sources */,
-				E0D079D70996912E00B2C3F4 /* Frameworks */,
-				E0D079DC0996912E00B2C3F4 /* Rez */,
+				0AA7804C2BB60E1700E0514B /* Sources */,
+				0AA7804D2BB60E1700E0514B /* Frameworks */,
+				0AA7804E2BB60E1700E0514B /* Headers */,
+				0AA7804F2BB60E1700E0514B /* Resources */,
+				0AA780502BB60E1700E0514B /* Rez */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Helios;
-			productInstallPath = "$(USER_LIBRARY_DIR)/Bundles";
 			productName = Helios;
-			productReference = E0D079E20996912E00B2C3F4 /* Helios.saver */;
+			productReference = 0AA780522BB60E1700E0514B /* Helios.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0149AE4F0075FABC7F000001 /* Project object */ = {
+		0AA780482BB60E1700E0514B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lasse Lauwerys";
 			};
-			buildConfigurationList = E0D079BD099690F100B2C3F4 /* Build configuration list for PBXProject "Helios" */;
-			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = en;
-			hasScannedForEncodings = 1;
+			buildConfigurationList = 0AA7804B2BB60E1700E0514B /* Build configuration list for PBXProject "Helios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				de,
-				ja,
-				fr,
-				it,
-				Base,
 			);
-			mainGroup = 0149AE500075FABC7F000001;
-			productRefGroup = 0149AE580075FD537F000001 /* Products */;
+			mainGroup = 0AA780472BB60E1700E0514B;
+			productRefGroup = 0AA780532BB60E1700E0514B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0D079C10996912E00B2C3F4 /* Helios */,
+				0AA780512BB60E1700E0514B /* Helios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E0D079CE0996912E00B2C3F4 /* Resources */ = {
+		0AA7804F2BB60E1700E0514B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D079D00996912E00B2C3F4 /* Localizable.strings in Resources */,
-				E0D079D10996912E00B2C3F4 /* spheremap.tga in Resources */,
-				E0D079D20996912E00B2C3F4 /* aaron_map.tga in Resources */,
-				E0157561247DB3EA00840367 /* Helios.xib in Resources */,
-				E08259C02482CE0900CD3F52 /* thumbnail.png in Resources */,
+				0AA780622BB60E1700E0514B /* InfoPlist.strings in Resources */,
+				0AA7808B2BB615CD00E0514B /* spheremap.tga in Resources */,
+				0AA7808C2BB615CD00E0514B /* aaron_map.tga in Resources */,
+				0AA780962BB61AD200E0514B /* HeliosPreferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
-		E0D079DC0996912E00B2C3F4 /* Rez */ = {
+		0AA780502BB60E1700E0514B /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,196 +277,113 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E0D079D30996912E00B2C3F4 /* Sources */ = {
+		0AA7804C2BB60E1700E0514B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0157522247D718700840367 /* rsMatrix.cpp in Sources */,
-				E0157565247DB3FF00840367 /* HeliosView.mm in Sources */,
-				E0157523247D718700840367 /* rsVec4.cpp in Sources */,
-				E0157544247D71F900840367 /* impTorus.cpp in Sources */,
-				E015754F247D71F900840367 /* impHexahedron.cpp in Sources */,
-				E015752A247D718700840367 /* rsVec.cpp in Sources */,
-				E0157520247D718700840367 /* Rgbhsl.cpp in Sources */,
-				E0157511247D706100840367 /* rsText.cpp in Sources */,
-				E0157551247D71F900840367 /* impCapsule.cpp in Sources */,
-				E0157556247D71F900840367 /* impCubeVolume.cpp in Sources */,
-				E015754D247D71F900840367 /* impKnot.cpp in Sources */,
-				E015752B247D718700840367 /* rsQuat.cpp in Sources */,
-				E0157558247D71F900840367 /* impRoundedHexahedron.cpp in Sources */,
-				E0157552247D71F900840367 /* impSphere.cpp in Sources */,
-				E0157545247D71F900840367 /* impEllipsoid.cpp in Sources */,
-				E015750A247D6B7400840367 /* Helios.cpp in Sources */,
-				E015754A247D71F900840367 /* impCubeTables.cpp in Sources */,
-				E0157546247D71F900840367 /* impShape.cpp in Sources */,
-				E0157559247D71F900840367 /* impSurface.cpp in Sources */,
+				0AA780662BB60E1800E0514B /* HeliosView.mm in Sources */,
+				0AA7807D2BB6142E00E0514B /* impCube.cpp in Sources */,
+				0AA780802BB6142E00E0514B /* impCubeVolume.cpp in Sources */,
+				0AA780A02BB624A000E0514B /* Helios.mm in Sources */,
+				0AA780A42BB6258F00E0514B /* HeliosMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0157563247DB3EA00840367 /* Helios.xib */ = {
+		0AA780602BB60E1700E0514B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E0157562247DB3EA00840367 /* Base */,
+				0AA780612BB60E1700E0514B /* en */,
 			);
-			name = Helios.xib;
-			sourceTree = "<group>";
-		};
-		F5F141D2033A92FE01A80102 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0157504247D67B600840367 /* de */,
-				E0157505247D67B900840367 /* en */,
-				E0157506247D67BD00840367 /* ja */,
-				E0157507247D67C000840367 /* fr */,
-				E0157508247D67C200840367 /* it */,
-			);
-			name = Localizable.strings;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E0D079BE099690F100B2C3F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
-				WARNING_CFLAGS = "-Wmost";
-			};
-			name = Debug;
-		};
-		E0D079BF099690F100B2C3F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
-				WARNING_CFLAGS = "-Wmost";
-			};
-			name = Release;
-		};
-		E0D079DE0996912E00B2C3F4 /* Debug */ = {
+		0AA780672BB60E1800E0514B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 8D98N325TG;
-				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = "Info-Helios.plist";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0AA780682BB60E1800E0514B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0AA7806A2BB60E1800E0514B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helios/Helios-Prefix.pch";
+				INFOPLIST_FILE = "Helios/Helios-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uselesssoft.screensaver.helios;
-				PRODUCT_NAME = Helios;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
 		};
-		E0D079DF0996912E00B2C3F4 /* Release */ = {
+		0AA7806B2BB60E1800E0514B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 8D98N325TG;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				INFOPLIST_FILE = "Info-Helios.plist";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helios/Helios-Prefix.pch";
+				INFOPLIST_FILE = "Helios/Helios-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				OTHER_CFLAGS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"$(OTHER_CFLAGS)",
-					"-fpermissive",
-				);
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.uselesssoft.screensaver.helios;
-				PRODUCT_NAME = Helios;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -575,25 +391,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0D079BD099690F100B2C3F4 /* Build configuration list for PBXProject "Helios" */ = {
+		0AA7804B2BB60E1700E0514B /* Build configuration list for PBXProject "Helios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D079BE099690F100B2C3F4 /* Debug */,
-				E0D079BF099690F100B2C3F4 /* Release */,
+				0AA780672BB60E1800E0514B /* Debug */,
+				0AA780682BB60E1800E0514B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0D079DD0996912E00B2C3F4 /* Build configuration list for PBXNativeTarget "Helios" */ = {
+		0AA780692BB60E1800E0514B /* Build configuration list for PBXNativeTarget "Helios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D079DE0996912E00B2C3F4 /* Debug */,
-				E0D079DF0996912E00B2C3F4 /* Release */,
+				0AA7806A2BB60E1800E0514B /* Debug */,
+				0AA7806B2BB60E1800E0514B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0149AE4F0075FABC7F000001 /* Project object */;
+	rootObject = 0AA780482BB60E1700E0514B /* Project object */;
 }
