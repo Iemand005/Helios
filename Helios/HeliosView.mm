@@ -923,7 +923,7 @@ static void hsl2rgb(float h, float s, float l, float *r, float *g, float *b);
         glClear(GL_COLOR_BUFFER_BIT);
     
     // Draw ions
-    glBlendFunc(GL_ON...
+    glBlendFunc(GL_ONE, GL_ONE);
     glBindTexture(GL_TEXTURE_2D, theTextures[0]);
     for(i=0; i<ionsReleased; i++)
         par.ilist[i].draw(&par);
